@@ -1,0 +1,41 @@
+.warranty {
+  background-color: #f3efea;
+  padding-bottom: 210px;
+  &__title {
+    display: none;
+  }
+  &__wrapper {
+    min-height: 590px;
+    border: 7px solid #a1b29f;
+  }
+  &__subwrapper {
+    position: relative;
+    width: 99%;
+    height: 99%;
+    border: 1px solid #715b4b;
+    margin: 7px auto;
+  }
+  &__item {
+    padding: 92px 118px 179px 95px;
+    &_title {
+      display: block;
+      width: 658px;
+      margin: 0 auto;
+      font-size: 48px;
+      line-height: 150%;
+      text-align: center;
+      color: #57463a;
+      padding-bottom: 40px;
+    }
+    &_descr {
+      font-size: 24px;
+      line-height: 150%;
+      color: #000000;
+    }
+    &_logo {
+      position: absolute;
+      right: 62px;
+      bottom: 38px;
+    }
+  }
+}
