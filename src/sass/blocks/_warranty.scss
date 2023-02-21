@@ -1,12 +1,12 @@
 .warranty {
-  background-color: #f3efea;
+  background-color: $main-color;
   padding-bottom: 210px;
   &__title {
     display: none;
   }
   &__wrapper {
     min-height: 590px;
-    border: 7px solid #a1b29f;
+    border: 7px solid $second-color;
   }
   &__subwrapper {
     position: relative;

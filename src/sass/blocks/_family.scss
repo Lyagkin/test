@@ -1,6 +1,6 @@
 .family {
   padding-bottom: 160px;
-  background-color: #f3efea;
+  background-color: $main-color;
   &__title {
     font-size: 48px;
     line-height: 150%;
@@ -37,7 +37,7 @@
         width: 245px;
         height: 60px;
         border: none;
-        background-color: #a1b29f;
+        background-color: $second-color;
         font-size: 16px;
         line-height: 60px;
         color: #f6f6f6;
